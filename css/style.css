@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box
+}
+
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  min-width: 768px;
+  grid-area: main;
+  align-items: center;
+  align-items: center;
+	justify-content: center;
+}
+
