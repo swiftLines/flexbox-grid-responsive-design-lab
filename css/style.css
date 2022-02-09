@@ -13,10 +13,53 @@ html {
 
 main {
   display: flex;
-  min-width: 768px;
-  grid-area: main;
-  align-items: center;
-  align-items: center;
-	justify-content: center;
+  flex-direction: column;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* grid-template-columns: 20% 40% 40%; */
+}
+
+#status {
+  display: flex;
+  align-items: center;
+  justify-content: right; 
+  flex-direction: row;
+}
+
+img {
+  display: flex;
+  border-radius: 50%;
+}
+
+#occupation {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#offer {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+  #brand {
+    display: none;
+  
+  }
+}
