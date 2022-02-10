@@ -22,7 +22,6 @@ body {
 }
 
 main {
-  border: 1px solid red;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -31,18 +30,17 @@ main {
 
 #contact {
   display: flex;
-  border: 1px solid red;
   width: 100%;
 }
 
 #contact p {
   width: 50%;
-  border: 1px dotted blue;
   text-align: center;
-  padding: 25px;
+  padding: 16px;
   margin: 0px;
-  background-color: limegreen;
+  background-color: rgb(23, 177, 23);
   grid-area: contact;
+ 
 }
 
 #offer {
@@ -51,11 +49,11 @@ main {
 }
 
 #contact p:first-child {
-  background-color: rgb(66, 225, 66);
+  background-color: rgb(96, 205, 96);
 }
 
 #occupation {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(237, 237, 237);
   width: 100%;
   text-align: center;
   grid-area: occupation;
@@ -69,14 +67,18 @@ main {
 }
 
 #status {
-  margin-left: auto;
-  padding: 5px;
+  /* margin-left: auto; */
+  text-align: right;
+  padding: 7px 12px;
   grid-area: status;
   width: 100%;
+  font-size: 12px;
 }
 
 #name {
   grid-area: name;
+  font-size: 24px;
+  margin: 16px 45px
 }
 
 img {
@@ -84,6 +86,14 @@ img {
   border: 3px solid rgb(97, 211, 97);
   grid-area: img;
   margin: 0 auto;
+}
+
+#review {
+  margin: 16px 0px 4px;
+}
+
+#position {
+  margin: 4px 0px 16px;
 }
 
 #time {
